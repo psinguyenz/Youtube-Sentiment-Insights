@@ -60,6 +60,8 @@ B. Docker Build: Tự động build image mới.
 C. Push to Registry: Đẩy image lên Docker Hub hoặc AWS ECR.
 D. Auto Deploy: Cập nhật container mới trên AWS EC2.
 
+bash
+```
 ├── .dvc/                # Cấu hình quản lý phiên bản dữ liệu của DVC
 ├── .github/workflows/   # CI/CD pipeline (Tự động build Docker & deploy AWS)
 ├── flask_api/           # Backend API phục vụ inference cho Chrome Extension
@@ -77,6 +79,7 @@ D. Auto Deploy: Cập nhật container mới trên AWS EC2.
 ├── dvc.yaml             # Định nghĩa các giai đoạn (stages) của Pipeline
 ├── requirements.txt     # Danh sách thư viện cần thiết
 └── setup.py             # Cài đặt project dưới dạng một package
+```
 
 📝 Acknowledge
 Dự án được truyền cảm hứng và tham khảo quy trình triển khai từ cộng đồng MLOps (với các kỹ thuật từ entbappy).
