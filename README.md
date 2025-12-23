@@ -55,10 +55,10 @@ aws configure
 ### 4. 🛠️ CI/CD Workflow
 Mỗi khi có code mới được push lên nhánh main:
 
-A. Linting & Testing: Kiểm tra chất lượng code.
-B. Docker Build: Tự động build image mới.
-C. Push to Registry: Đẩy image lên Docker Hub hoặc AWS ECR.
-D. Auto Deploy: Cập nhật container mới trên AWS EC2.
+Linting & Testing: Kiểm tra chất lượng code.
+-> Docker Build: Tự động build image mới.
+-> Push to Registry: Đẩy image lên Docker Hub hoặc AWS ECR.
+-> Auto Deploy: Cập nhật container mới trên AWS EC2.
 
 ```bash
 ├── .dvc/                # Cấu hình quản lý phiên bản dữ liệu của DVC
