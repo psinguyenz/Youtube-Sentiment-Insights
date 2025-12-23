@@ -64,7 +64,7 @@ bash
 ```
 ├── .dvc/                # Cấu hình quản lý phiên bản dữ liệu của DVC
 ├── .github/workflows/   # CI/CD pipeline (Tự động build Docker & deploy AWS)
-├── flask_api/           # Backend API phục vụ inference cho Chrome Extension
+├── flask_api/           # Backend API phục vụ inference cho Chrome Extension (main.py)
 ├── notebooks/           # Jupyter Notebooks phục vụ EDA và thử nghiệm mẫu
 ├── src/                 # Mã nguồn chính của dự án
 │   ├── data/            # Quản lý vòng đời dữ liệu
